@@ -1,0 +1,9 @@
+CREATE TABLE CONTACT(
+	CONTACT_ID char(36) PRIMARY KEY,
+	FIRST_NAME varchar(64),
+	LAST_NAME varchar(64),
+	EMAIL varchar(64),
+	JOB_TITLE varchar(64),
+	ADDRESS varchar(64),
+	TELEPHONE_NUMBER char(36)
+);
